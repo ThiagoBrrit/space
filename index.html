@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold">Travels to Space</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#space">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Travels to Space
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#foto">
+                            <i class="bi bi-camera me-1"></i>
+                            Fotografias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#curiosidade">
+                            <i class="bi bi-search me-1"></i>
+                            Curiosidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="space">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img height="512px" class="w-100" src="./Planets/Solar System.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img height="512px" class="w-100" src="./Planets/foguete.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img height="512px" class="w-100" src="./Planets/astronauta.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./Planets/estacao.webp" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">A Travel to Space</span></h2>
+                            <p class="fw-bold">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla labore, facilis voluptatibus temporibus explicabo, exercitationem accusantium veniam voluptas similique, debitis eligendi ut quia fugit architecto provident nobis fugiat quasi quos!
+                            </p>
+                            <h3 class="section-title">Nossas <span class="text-colored">Ambições</span></h3>
+                            <p class="fw-bold">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellat aliquid perspiciatis, aut impedit nemo enim placeat, necessitatibus maiores laboriosam soluta! Recusandae, placeat debitis ullam consequuntur ad numquam exercitationem iste!
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae eligendi cupiditate facilis pariatur eum eveniet in sed numquam, voluptatibus dignissimos quasi rem magnam accusamus, esse ipsum? Fugit, nostrum tenetur.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit non voluptatum ab numquam accusantium sequi saepe consectetur labore. Praesentium, fugit. Maxime mollitia quidem saepe provident possimus autem reprehenderit voluptatem error.
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="foto" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossas Fotografias <span class="text-colored">Exclusivas</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="./Planets/terra-inspitation.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-globe-americas"></i>
+                            Terra em Rotação
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, necessitatibus. Eaque minus nostrum quis, optio sapiente doloremque temporibus ab ut? Inventore nobis laborum quas amet debitis neque sit saepe iste.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img height="246.55" class="d-block w-100 rounded mb-2" src="./Planets/Eclipse.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-globe-americas"></i>
+                            Eclipse Solar
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, necessitatibus. Eaque minus nostrum quis, optio sapiente doloremque temporibus ab ut? Inventore nobis laborum quas amet debitis neque sit saepe iste.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img height="246.55" class="d-block w-100 rounded mb-2" src="./Planets/espaco profundo.jpeg" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-globe-americas"></i>
+                            Espaço Profundo
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, necessitatibus. Eaque minus nostrum quis, optio sapiente doloremque temporibus ab ut? Inventore nobis laborum quas amet debitis neque sit saepe iste.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img height="246.55" class="d-block w-100 rounded mb-2" src="./Planets/linda-noite-azul-no-planeta terra.avif" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-globe-americas"></i>
+                            Terra a Noite
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, necessitatibus. Eaque minus nostrum quis, optio sapiente doloremque temporibus ab ut? Inventore nobis laborum quas amet debitis neque sit saepe iste.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img height="246.55" class="d-block w-100 rounded mb-2" src="./Planets/chuva de meteoros.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-globe-americas"></i>
+                            Chuva de Meteoros
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, necessitatibus. Eaque minus nostrum quis, optio sapiente doloremque temporibus ab ut? Inventore nobis laborum quas amet debitis neque sit saepe iste.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img height="246.55" class="d-block w-100 rounded mb-2" src="./Planets/jupiter.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-globe-americas"></i>
+                            Jupiter
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, necessitatibus. Eaque minus nostrum quis, optio sapiente doloremque temporibus ab ut? Inventore nobis laborum quas amet debitis neque sit saepe iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="curiosidade" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 text-colored">
+                        Curiosidades dos Planetas e Espaço
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#terra" class="fw-bold text-start nav-link text-colored active">Terra</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#marte" class="fw-bold text-start nav-link text-colored">Marte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jupiter" class="fw-bold text-start nav-link text-colored">Jupiter</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#venus" class="fw-bold text-start nav-link text-colored">Vênus</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#espaco" class="fw-bold text-start nav-link text-colored">Espaço Sideral</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sol" class="fw-bold text-start nav-link text-colored">Sol</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#constelacao" class="fw-bold text-start nav-link text-colored">Constelacão</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="terra">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100 rounded" src="./Planets/terra/terra 1.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">A Terra</h5>
+                                        <p>
+                                            A Terra é o terceiro planeta mais próximo do Sol, o mais denso e o quinto maior dos oito planetas do Sistema Solar. É também o maior dos quatro planetas telúricos. É por vezes designada como Mundo ou Planeta Azul.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100 rounded" src="./Planets/terra/Diametro da Terra.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Diametro do Planeta Terra</h5>
+                                        <p>
+                                            A Terra têm um diâmetro de 12.756 km (pelo Equador).
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100 rounded" src="./Planets/terra/terra 3.avif" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Massa do Planeta Terra</h5>
+                                        <p>
+                                            A massa da Terra é uma unidade padrão de massa na astronomia usada para indicar as massas de outros planetas, sua massa é estimada em 5,972 × 10^24 kg.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100 rounded" src="./Planets/terra/terra 4.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Idade aproximada da Terra</h5>
+                                        <p>
+                                            Hoje os cientistas sabem com relativa precisão que o nosso planeta se formou há 4,5 bilhões de anos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="marte">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/marte/Marte.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Marte</h5>
+                                        <p>
+                                            Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/marte/marte 2.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Diametro de Marte</h5>
+                                        <p>
+                                            O diâmetro de Marte mede 6792 quilômetros e é duas vezes maior que a Lua — a Terra, por sua vez, é duas vezes maior do que o planeta.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/marte/representacao de marte.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Expedições a Marte</h5>
+                                        <p>
+                                            Desde a época da chamada Guerra Fria. Estados Unidos e União Soviética, Rússia, China e Índia tentaram enviar diversas missões a Marte desde a década de 1960. Ao todo, foram 48 tentativas até o momento, sendo 20 bem sucedidas e 28 que falharam parcial ou integralmente em seus objetivos
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/marte/marte ilustracao 3d.avif" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Missões de Exploração a Marte</h5>
+                                        <p>
+                                            A missão poderá acontecer entre 2030 e 2040. De acordo com a agência espacial, esta seria a primeira viagem tripulada para Marte, caso consigam superar os obstáculos e limitações técnicas, tecnológicas e, claro, de preservação da saúde dos envolvidos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jupiter">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/jupiter/representaçao de jupiter.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Júpiter</h5>
+                                        <p>
+                                            Júpiter é o maior planeta do Sistema Solar, tanto em diâmetro quanto em massa, e é o quinto mais próximo do Sol. Possui menos de um milésimo da massa solar, contudo tem 2,5 vezes a massa de todos os outros planetas em conjunto. É um planeta gasoso, junto com Saturno, Urano e Netuno.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/jupiter/dentro de jupiter.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Diametro de Júpiter</h5>
+                                        <p>
+                                            Quinto planeta a partir do Sol, situado entre Marte e Saturno, Júpiter é o maior planeta do sistema solar, com diâmetro de 142.984 quilômetros – caberiam mil planetas como a Terra em Júpiter.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/jupiter/jupiter-terra-e-lua.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Luas de Júpiter</h5>
+                                        <p>
+                                            A Nasa define as luas como corpos celestes que “orbitam planetas e asteroides”, podendo ter várias formas, tamanhos e tipos. Ainda segundo a agência espacial norte-americana, a quantidade desses corpos por planetas é a seguinte: Júpiter: 92 luas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/jupiter/jupiter.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Importancia de Júpiter para a Terra</h5>
+                                        <p>
+                                            se não existisse esse planeta tipo Júpiter, que consiga estabilizar as órbitas em um sistema solar, os planetas rochosos internos acabariam sendo destruídos. Essa estabilidade em uma escala de bilhões de anos tem permitido o surgimento da vida na Terra.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="venus">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/venus/Venus.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Vênus</h5>
+                                        <p>
+                                            Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a Afrodite.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/venus/venus e terra.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Diametro de Vênus</h5>
+                                        <p>
+                                            O diâmetro de Vênus é de 12000 km aproximadamente, muito semelhante e apenas ligeiramente menor que o da Terra. Venus, visto inteiro Vênus está coberto de nuvens permanentemente e sua superfície não pode ser nunca vista.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/venus/vénus.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>
+                                            Vênus é um planeta inóspito para o ser humano — e qualquer vida como conhecemos. Sua atmosfera possui um manto de 24 quilômetros de espessura, feito de dióxido de carbono, com nuvens de ácido sulfúrico, provocando um efeito estufa descontrolado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/venus/venus-nasa.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Vênus ja foi Habitavel</h5>
+                                        <p>
+                                            Graças à missão da NASA em 1978 com a espaçonave Pioneer Venus, foram encontradas evidências de que o planeta Vênus já teve oceanos rasos, reafirmando as suspeitas anteriores de que era um planeta semelhante à Terra, até mesmo habitável. Vênus pode ter abrigado vida no passado.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="espaco">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/espaço/espaco.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Espaço Sideral</h5>
+                                        <p>
+                                            Espaço sideral, espaço exterior ou simplesmente espaço é toda a área física do universo não ocupada por corpos celestes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/espaço/galaxias.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Galáxia</h5>
+                                        <p>
+                                            As galáxias são conjuntos de estrelas, poeira, gases e matéria escura que formam o Universo. Elas podem ser elípticas, espirais, como a Via Láctea, ou possuir forma irregular. Galáxia do Triângulo ou Messier 33. As galáxias são sistemas formados por milhares a trilhões de estrelas, poeira, gases e matéria escura.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/espaço/via lactea espiral.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Via Láctea</h5>
+                                        <p>
+                                            A Via Láctea é uma galáxia espiral, da qual o Sistema Solar faz parte. Vista da Terra, aparece como uma faixa brilhante e difusa que circunda toda a esfera celeste, recortada por nuvens moleculares que lhe conferem um intrincado aspecto irregular e recortado.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sol">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/Sol/images.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sol</h5>
+                                        <p>
+                                            O Sol é uma estrela anã amarela que os demais corpos celestes do Sistema Solar orbitam. Ele é formado por gases e não dispõe de nenhuma superfície sólida. O Sol é uma estrela localizada na Via Láctea. Trata-se da estrela mais próxima do planeta Terra e a maior de todo o Sistema Solar.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/Sol/Sol.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Diametro do Sol</h5>
+                                        <p>
+                                            O Sol possui então um diâmetro de 1.392.684 quilômetros, medida que pode ter resolvido inconsistências em outros cálculos realizados por telescópios na Terra.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/Sol/temp Sol.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Temperatura do Sol</h5>
+                                        <p>
+                                            Nossa estrela tem uma temperatura de aproximadamente 15 milhões de graus Celsius. Sem ele, não teríamos luz, calor ou vida. Sua energia influencia a temperatura dos corpos celestes do Sistema Solar.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="constelacao">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/constelacao/constelacoes.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Constelacão</h5>
+                                        <p>
+                                            Para identificar os movimentos observados no céu, os astrônomos da antiguidade criaram regiões que eram, basicamente, desenhos formados ao ligar as estrelas no céu, como numa brincadeira de ligar os pontos. Esses desenhos poderiam ser usados como referências e receberam o nome de constelações.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/constelacao/hemisferiosul.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Constelação hemisfério Sul</h5>
+                                        <p>
+                                            a constelação Cruzeiro do Sul, a mais importante do hemisfério sul, é somente vista desse hemisfério, que faz parte das constelações austrais. Por outro lado, as constelações vistas do hemisfério norte celeste (ursa maior e ursa menor, por exemplo) são denominadas de constelações boreais.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/constelacao/hemisferionorte.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Constelação hemisfério Norte</h5>
+                                        <p>
+                                            No Hemisfério Norte, a principal constelação é a Ursa Maior, que está localizada próxima ao polo norte celeste. Essa é a terceira maior constelação e suas estrelas têm um brilho intenso, podendo ser facilmente identificadas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img height="360px" class="d-block w-100" src="./Planets/constelacao/constelacoes-zodiaco.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Constelação do Zodiaco</h5>
+                                        <p>
+                                            As constelações zodiacais são grupos de estrelas situadas em uma linha imaginária, compreendida entre dois paralelos de latitude celeste: um 8º ao norte e outro 8º ao sul da Eclíptica.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" placeholder="Seu nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                                <input type="email" id="email" placeholder="Seu E-mail" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opcional)</label>
+                                <input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem</label>
+                                <textarea id="mensagem" placeholder="Digite sua Mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-link">
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi white bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi white bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi white bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="white">
+                                Rua Space in World Nº 161 Guarulhos - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
